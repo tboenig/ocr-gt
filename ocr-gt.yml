@@ -859,4 +859,20 @@ entries:
             - {name: 'CC 4.0', url: 'https://creativecommons.org/licenses/by/4.0/legalcode'}
         format: PAGE-XML
         volume:
-            - {count: ' 255', metric: pages}
+            - {count: '255', metric: pages}
+
+    -
+        id: '00000068'
+        name: 'Noisy OCR Dataset (NOD)'
+        url: 'https://zenodo.org/record/5068735'
+        description: 'This dataset contains images of English and Arabic documents with ground truth for use in OCR benchmarking.  It consists of two collections, "Old Books" (English) and "Yarmouk" (Arabic),'
+         language: 
+            - 'eng'
+            - 'ara'
+        time: 
+            - {start: '1853', end: '1920'}
+        license:
+            - {name: 'CC 4.0', url: 'https://creativecommons.org/licenses/by/4.0/legalcode'}
+        format: Text
+        volume:
+            - {count: '18504', metric: pages}
